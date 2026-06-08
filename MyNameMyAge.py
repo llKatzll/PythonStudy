@@ -1,5 +1,10 @@
-name = input("이름을 입력하세요.")
-age = int(input("태어난 연도를 입력하세요."))
+score = int(input("점수를 입력하세요"))
 
-print(f"{name}님은 올해 {2026 - age}살입니다.")
-
+if score >= 90:
+    print("A")
+elif score >= 80:
+    print("B")
+elif score >= 70:
+    print("C")
+else:
+    print("F")
